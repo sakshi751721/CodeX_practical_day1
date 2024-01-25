@@ -5,7 +5,7 @@ class Practical extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("AppBar"),
+        title: const Text("Practical N0. 4"),
       ),
       body: SizedBox(
           child: Column(
