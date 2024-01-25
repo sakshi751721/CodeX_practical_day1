@@ -12,8 +12,11 @@ class Practical extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SizedBox(height: 30),
-          Text("First Row"),
-          SizedBox(height: 30),
+          Container(
+            child: Text("First Row"),
+            margin: EdgeInsets.only(left: 180),
+          ),
+          SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -35,8 +38,11 @@ class Practical extends StatelessWidget {
             ],
           ),
           SizedBox(height: 30),
-          Text("Second Row"),
-          SizedBox(height: 30),
+          Container(
+            child: Text("Second Row"),
+            margin: EdgeInsets.only(left: 180),
+          ),
+          SizedBox(height: 20),
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
             Container(
               height: 150,
