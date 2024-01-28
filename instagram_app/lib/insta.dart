@@ -274,6 +274,18 @@ class Instagram extends StatelessWidget {
                 ],
               ),
 
+              Row(
+                children: [
+                  Text(
+                    "326 Likes",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  )
+                ],
+              ),
+              SizedBox(
+                height: 20,
+              ),
+
               //-------------------------Third Container------------------
               Container(
                   height: 270,
@@ -311,6 +323,15 @@ class Instagram extends StatelessWidget {
                         color: const Color.fromARGB(163, 0, 0, 0)),
                     tooltip: "like",
                   ),
+                ],
+              ),
+
+              Row(
+                children: [
+                  Text(
+                    "367 Likes",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  )
                 ],
               ),
             ],
