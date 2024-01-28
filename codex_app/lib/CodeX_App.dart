@@ -60,7 +60,7 @@ class CodeX extends StatelessWidget {
                         width: 250,
                         child: Image.network(
                           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAbmD3XmJdKLj4AZEszMwFOLyMaPu7n571ayKk8GfUmQ&s",
-                          fit: BoxFit.cover,
+                          fit: BoxFit.fill,
                         ),
                       ),
                       SizedBox(
@@ -152,7 +152,7 @@ class CodeX extends StatelessWidget {
                         width: 250,
                         child: Image.network(
                           "https://i0.wp.com/erainnovator.com/wp-content/uploads/2020/05/Hibernate-in-java.png?fit=1200%2C675&ssl=1",
-                          fit: BoxFit.cover,
+                          fit: BoxFit.fill,
                         ),
                       ),
                       SizedBox(
@@ -163,7 +163,7 @@ class CodeX extends StatelessWidget {
                         width: 250,
                         child: Image.network(
                           "https://miro.medium.com/v2/resize:fit:490/1*aRUnth2T7XPMwCpMHrjfyQ.png",
-                          fit: BoxFit.cover,
+                          fit: BoxFit.fill,
                         ),
                       )
                     ],
@@ -233,7 +233,7 @@ class CodeX extends StatelessWidget {
                         width: 250,
                         child: Image.network(
                           "https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vert_blue-transparent.png",
-                          fit: BoxFit.cover,
+                          fit: BoxFit.fill,
                         ),
                       )
                     ],
