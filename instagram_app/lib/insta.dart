@@ -32,13 +32,157 @@ class Instagram extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(
-                height: 20,
+                height: 30,
               ),
 
               SizedBox(
-                height: 50,
+                  child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Positioned(
+                      top: 8,
+                      left: 8,
+                      child: CircleAvatar(
+                        radius: 40,
+                        backgroundImage: AssetImage("images/sakshi.jpeg"),
+                        child: Icon(
+                          Icons.add_a_photo_rounded,
+                          color: Colors.blue,
+                        ),
+                      ),
+                    ),
+                    //----------------------story container-----------
+                    Container(
+                      margin: EdgeInsets.only(left: 28),
+                      height: 80,
+                      width: 80,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(40),
+                          color: Colors.white,
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.grey,
+                                offset: Offset(10, 10),
+                                blurRadius: 5)
+                          ],
+                          border: Border.all(
+                              color: const Color.fromARGB(255, 255, 64, 226))),
+                      child: IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.person),
+                        iconSize: 40,
+                      ),
+                    ),
+
+                    //------------------------------------------------------------------------------------------
+                    Container(
+                      margin: EdgeInsets.only(left: 28),
+                      height: 80,
+                      width: 80,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(40),
+                          color: Colors.white,
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.grey,
+                                offset: Offset(10, 10),
+                                blurRadius: 5)
+                          ],
+                          border: Border.all(
+                              color: const Color.fromARGB(255, 255, 64, 226))),
+                      child: IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.person),
+                        iconSize: 40,
+                      ),
+                    ),
+                    //-----------------------------------------------------------
+                    Container(
+                      margin: EdgeInsets.only(left: 28),
+                      height: 80,
+                      width: 80,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(40),
+                          color: Colors.white,
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.grey,
+                                offset: Offset(10, 10),
+                                blurRadius: 5)
+                          ],
+                          border: Border.all(
+                              color: const Color.fromARGB(255, 255, 64, 226))),
+                      child: IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.person),
+                        iconSize: 40,
+                      ),
+                    ),
+                    //--------------------------------------------------------------
+                    Container(
+                      margin: EdgeInsets.only(left: 28),
+                      height: 80,
+                      width: 80,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(40),
+                          color: Colors.white,
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.grey,
+                                offset: Offset(10, 10),
+                                blurRadius: 5)
+                          ],
+                          border: Border.all(
+                              color: const Color.fromARGB(255, 255, 64, 226))),
+                      child: IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.person),
+                        iconSize: 40,
+                      ),
+                    ),
+                    //----------------------------------------------------------
+                    Container(
+                      margin: EdgeInsets.only(left: 28),
+                      height: 80,
+                      width: 80,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(40),
+                          color: Colors.white,
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.grey,
+                                offset: Offset(10, 10),
+                                blurRadius: 5)
+                          ],
+                          border: Border.all(
+                              color: const Color.fromARGB(255, 255, 64, 226))),
+                      child: IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.person),
+                        iconSize: 40,
+                      ),
+                    ),
+                  ],
+                ),
+              )),
+
+              Row(
+                children: [
+                  SizedBox(
+                    height: 25,
+                    width: 20,
+                  ),
+                  Text("Your story")
+                ],
               ),
-              //--------------------first container-------------------------
+              SizedBox(
+                height: 18,
+              ),
+              //--------------------first container-----------------------------
               Container(
                 height: 270,
                 width: 400,
@@ -58,13 +202,13 @@ class Instagram extends StatelessWidget {
                     onPressed: () {},
                     icon: Icon(Icons.comment,
                         color: const Color.fromARGB(163, 0, 0, 0)),
-                    tooltip: "like",
+                    tooltip: "comment",
                   ),
                   IconButton(
                     onPressed: () {},
                     icon: Icon(Icons.send,
                         color: const Color.fromARGB(163, 0, 0, 0)),
-                    tooltip: "like",
+                    tooltip: "share",
                   ),
                   SizedBox(
                     width: 120,
@@ -73,10 +217,20 @@ class Instagram extends StatelessWidget {
                     onPressed: () {},
                     icon: Icon(Icons.bookmark_border_outlined,
                         color: const Color.fromARGB(163, 0, 0, 0)),
-                    tooltip: "like",
+                    tooltip: "save",
                   ),
                 ],
               ),
+
+              Row(
+                children: [
+                  Text(
+                    "234 Likes",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  )
+                ],
+              ),
+
               //-----------------------------second container-----------------
               SizedBox(
                 height: 30,
@@ -85,8 +239,8 @@ class Instagram extends StatelessWidget {
                 height: 270,
                 width: 400,
                 child: Image.network(
-                  "https://wallpapers.com/images/hd/shivaji-maharaj-statue-with-garlands-hd-s2g4axsjame3uk9k.jpg",
-                  fit: BoxFit.cover,
+                  "https://pbs.twimg.com/media/FPY4YBNaUAI1vnr.jpg:large",
+                  fit: BoxFit.fill,
                 ),
               ),
               Row(
