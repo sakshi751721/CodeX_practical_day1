@@ -1,4 +1,4 @@
-name: instagram_app
+name: instagram
 description: A new Flutter project.
 publish_to: 'none'
 version: 0.1.0
@@ -17,6 +17,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets: 
+  assets :
   - images/sakshi.jpeg
-  - images/instagram_PNG3.png
+  - images/img1.jpeg

@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="instagram_app"
+        android:label="instagram"
         android:name="${applicationName}"
-        android:icon="images/instagram_PNG3.png">
+        android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:exported="true"
