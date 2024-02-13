@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  highlight: ^0.7.0
+  flutter_highlighting: ^0.9.0+11.8.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +19,24 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/Dart-logo.png
+    - assets/eclipse.png
+    - assets/flutter-logo.png
+    - assets/git-img.png
+    - assets/github.png
+    - assets/hibernate-logo.png
+    - assets/java-14-logo.png
+    - assets/js-logo.png
+    - assets/maria.png
+    - assets/mysql-img.png
+    - assets/oracle.png
+    - assets/postman.png
+    - assets/Python-logo.png
+    - assets/react-logo.png
+    - assets/spring-logo.png
+    - assets/vs-logo.png
+    - assets/apple.png
+    - assets/google.png
+    - assets/CodeX-Logo.jpg
+    - assets/mongodb.png
